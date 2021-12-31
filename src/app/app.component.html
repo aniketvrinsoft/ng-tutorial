@@ -1,7 +1,46 @@
+<app-header></app-header>
 <h1>hello {{title}}</h1>
-<app-login></app-login>
+<!-- <app-login></app-login> -->
 
-<button (click)="getName('kukur')">click me</button>
+<!-- <button (click)="getName('kukur')">click me</button>
 
 
-<input type="text" #box (keyup)="getName(box.value)" />
+<input type="text" #box (keyup)="getName(box.value)" /> -->
+
+<!-- 
+<input type="text" #box (blur)="getName(box.value)" /> -->
+<!-- work when focus out -->
+
+<!-- 
+<input type="text" #box (keyup)="getValue(box.value)" />
+
+<br />
+<p>{{displayVal}}</p> -->
+
+<!-- <h1 *ngIf="show else elseBlock">
+  hello
+</h1>
+
+
+<ng-template #elseBlock>
+  <h1>else condition</h1>
+</ng-template> -->
+
+
+<!-- <ng-template [ngIf]="show=='one'">
+  <h1>block 1</h1>
+</ng-template>
+<ng-template [ngIf]="show=='two'">
+  <h1>block 2</h1>
+</ng-template>
+<ng-template [ngIf]="show=='three'">
+  <h1>block 3</h1>
+</ng-template> -->
+<!-- 
+<div [ngSwitch]="show">
+  <h1 *ngSwitchCase="'one'">One</h1>
+  <h1 *ngSwitchCase="'two'">two</h1>
+  <h1 *ngSwitchCase="'three'">three</h1>
+</div> -->
+
+<!-- <h3 *ngFor="let item of users">{{item}}</h3> -->

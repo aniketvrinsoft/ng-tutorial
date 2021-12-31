@@ -7,8 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'blog';
+  displayVal = '';
 
-  getName(name: string) {
-    console.log(name)
-  }
+  // getName(name: string) {
+  //   console.log(name)
+  // }
+
+  // getValue(v: string) {
+  //   this.displayVal = v;
+
+  // }
+
+  show = 'two';
+  users = ['a', 'b', 'c', 'd', 'e', 'e']
+
 }

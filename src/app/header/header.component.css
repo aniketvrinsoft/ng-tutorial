@@ -1,0 +1,23 @@
+nav img{
+    width: 150px;
+}
+
+nav{
+    padding: 10px;
+    background-color: skyblue;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
